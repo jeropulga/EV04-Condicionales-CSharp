@@ -17,7 +17,8 @@ Solución de consola con los dos proyectos solicitados en la evidencia 220501097
 Desde la carpeta raíz:
 
 ```bash
-dotnet build EV04_Condicionales.sln
+dotnet build TallerCondicionales/TallerCondicionales.csproj
+dotnet build ClinicaVeterinaria/ClinicaVeterinaria.csproj
 dotnet run --project TallerCondicionales/TallerCondicionales.csproj
 dotnet run --project ClinicaVeterinaria/ClinicaVeterinaria.csproj
 ```
@@ -51,5 +52,6 @@ git push -u origin main
 ```
 
 Adjunte al LMS el enlace del repositorio y capturas propias de ambos programas ejecutándose en consola.
+
 
 
